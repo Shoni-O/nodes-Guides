@@ -156,7 +156,7 @@ sudo systemctl restart noriad && sudo journalctl -u noriad -f -o cat
 ### Create validator
 ```python
 noriad tx staking create-validator \
---amount=1000000unoria \
+--amount=1000000ucrd \
 --pubkey=$(noriad tendermint show-validator) \
 --moniker=STAVRguide \
 --chain-id=oasis-3 \
