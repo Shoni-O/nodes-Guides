@@ -51,7 +51,7 @@ make install
 ```python
 cd $HOME
 wget https://github.com/CascadiaFoundation/cascadia/releases/download/v0.1.3/cascadiad-v0.1.3-linux-amd64
-cascadiad-v0.1.3-linux-amd64
+chmod +x cascadiad-v0.1.3-linux-amd64
 mv cascadiad-v0.1.3-linux-amd64 $HOME/go/bin/cascadiad
 cascadiad version --long | grep -e version -e commit
 #commit: 36f56da7790251506d7c52d20a9fbc9979d74c17
